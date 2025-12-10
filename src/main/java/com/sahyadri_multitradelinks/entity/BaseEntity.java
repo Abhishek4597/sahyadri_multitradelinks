@@ -16,7 +16,7 @@ public class BaseEntity {
 	private Integer createdBy;
 
 	@Column(name = "created_date" ,nullable = false)
-	private LocalDateTime createdDate = LocalDateTime.now(); // Default value
+	private LocalDateTime createdDate ; // Default value
 
 	@Column(name = "updated_date" ,nullable = true)
 	private LocalDateTime updatedDate ; // Default value
